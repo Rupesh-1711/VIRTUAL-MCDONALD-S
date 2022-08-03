@@ -1,0 +1,46 @@
+body{
+    background-image: url("https://media.istockphoto.com/photos/culinary-background-with-traditional-ingredients-of-italian-cuisine-picture-id1278745986?k=20&m=1278745986&s=612x612&w=0&h=a0rvabf6vBWLwxYbBDSp2-nGrpp_jO96VHK9cd1GcTc=");
+    background-repeat: no-repeat;
+ background-size: 100% 1000px;
+ background-blend-mode: color-burn;
+}
+form{
+    margin: auto auto 30px auto;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+    background-color: rgb(16, 71, 123);
+    padding: 20px;
+    
+}
+button{
+    width: 100px;
+   background-color: rgb(162, 23, 23);
+   border-radius: 5px;
+   border-color: rgb(162, 23, 23);
+   color: white;
+
+    font-size: 16ox;
+    font-weight: 800;
+ }
+#yourOrder{
+margin: auto;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 20px;
+}
+img{
+width: 300px;
+height: 300px
+}
+
+#orderId{
+color: rgb(232, 3, 3);
+text-align: end;
+}
